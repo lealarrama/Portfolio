@@ -7,7 +7,7 @@ const First = () => {
   return (
     <div id='main'>
       <img className ='w-full h-screen object-cover object-left scale-x-[-1]
-      'src='../../src/assets/img/iStock-1163542789-945x630.jpg' alt=''>
+      'src='https://149351115.v2.pressablecdn.com/wp-content/uploads/2020/02/iStock-1163542789-945x630.jpg' alt=''>
       </img>
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center '>
