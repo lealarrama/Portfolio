@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 
-const Main = () => {
+const First = () => {
   return (
     <div id='main'>
       <img className ='w-full h-screen object-cover object-left scale-x-[-1]
@@ -15,7 +15,7 @@ const Main = () => {
                 <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>I'm a
                   <TypeAnimation
                     sequence={[
-                      'Developer', // Types 'One'
+                      'Web Developer', // Types 'One'
                       2000, // Waits 1s
                       'Coder', // Deletes 'One' and types 'Two'
                       2000, // Waits 2s
@@ -41,4 +41,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default First
