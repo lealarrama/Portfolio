@@ -3,15 +3,17 @@ import { TypeAnimation } from 'react-type-animation';
 import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 
+
+
 const First = () => {
   return (
     <div id='main'>
-      <img className ='w-full h-screen object-cover object-left scale-x-[-1]
+      <img className ='w-full h-screen object-cover scale-x-[-1]
       'src='https://149351115.v2.pressablecdn.com/wp-content/uploads/2020/02/iStock-1163542789-945x630.jpg' alt=''>
       </img>
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center '>
-                <h1 className='sm:text-5xl text-4xl font bold text-gray-800'>I'm Leandro Larrama Klam</h1>
+                <h1 className='sm:text-5xl text-4xl  text-center font bold text-gray-800'>I'm Leandro Larrama Klam</h1>
                 <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>I'm a
                   <TypeAnimation
                     sequence={[
