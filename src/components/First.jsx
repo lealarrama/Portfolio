@@ -1,11 +1,12 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 
 
 
 const First = () => {
+
   return (
     <div id='main'>
       <img className ='w-full h-screen object-cover scale-x-[-1]
@@ -31,10 +32,17 @@ const First = () => {
                   />
                 </h2>
                 <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                  <FaTwitter className='cursor-pointer' size={20}/>
-                  <FaFacebook className='cursor-pointer' size={20}/>
-                  <FaInstagram className='cursor-pointer' size={20}/>
-                  <FaLinkedin className='cursor-pointer' size={20}/>
+                  <a href='https://github.com/lealarrama'>
+                    <FaGithub className='cursor-pointer' size={20}/>
+                  </a>
+                  
+                  <a href='https://www.instagram.com/lea_larramaklam/'>
+                    <FaInstagram className='cursor-pointer' size={20}/>
+                  </a>
+                  
+                  <a href='https://www.linkedin.com/in/leandro-larrama-klam-743691131/'>
+                    <FaLinkedin className='cursor-pointer' size={20}/>
+                  </a>
                 </div>
             </div>
         </div>
