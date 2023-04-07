@@ -8,8 +8,7 @@ const Resume = () => {
       <div className="">
         <div className="container md:flex">
           <img  className =" p-8 m-10 mt-0 rounded-full ml-0" src ={Photo} alt=''/>
-            <p className='text-lg font-normal text-justify pt-8 m-2 my-2 text-stone-500'>
-                Dear recruiter (To whom it may concern), 
+            <p className='text-lg font-normal text-justify pt-8 m-2 my-2 text-stone-500'> 
                 I am currently an exchange English student in Dublin with a background in Coding (Programming) looking for an opportunity and new challenges in the Web Development (IT, Tech) sector.  
                 From my personal projects and learning experiences I have been familiarized with following coding (programming) languages: Node.js, Javascript, Express, Html, Css, Javascript front, MySql, 
                 Api, Sequelize, React.js, Git, Scrum, Trello, Slack. 
