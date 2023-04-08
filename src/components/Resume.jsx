@@ -1,5 +1,6 @@
 import React from 'react'
 import Photo from '../assets/img/leandro.jpg'
+import Diploma from '../assets/img/Diploma.png'
 
 const Resume = () => {
   return (
@@ -17,7 +18,16 @@ const Resume = () => {
                 I look forward to hearing from you.
             </p>
          </div> 
-        
+        <div>
+        <div className='pt-10'>
+            <p className='text-center leading-loose py-10 text-stone-600 text-lg mx-5' > 
+              Web Full Stack Certificate - Front End focused in visual, layout and interections. 
+              Back End focused in the logic to conect databases and to creat any functionalities that a website might need.    
+            </p>
+            <img className='mx-auto w-1/2 sm:w-1/4'   src ={Diploma} alt=''/>
+         </div> 
+
+        </div>
       
     </div>
   )

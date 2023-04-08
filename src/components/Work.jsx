@@ -5,10 +5,16 @@ import { BsDatabaseDown } from 'react-icons/bs';
 
 const data = [
     {
+        year:2021,
+        title: 'Project E-commerce Book Shop',
+        duration: '6 months',
+        details:'Development of an e-commerce book shop with other developers using tools such as Github, Slack and Trello. In this project all information are kept in one data base and include many routes to navegate. Adm users are able to add, edit and delete products, it is also possible to register new users and a shopping cart was created as a functionality.'
+           
+    },{
         year:2022,
         title: 'Own Projects',
-        duration: '1 year',
-        details:'Development of an e-commerce book shop with other developers using tools such as Github, Slack and Trello. In this project all information are kept in one data base and include many routes to navegate. Adm users are able to add, edit and delete products, it is also possible to register new users and a shopping cart was created as a functionality.Then I have been dedicating myself to develop personal projects using Javascript, Reactjs, Vite and Taillwind to keep improving my knowledge. '   
+        duration: 'Present',
+        details:'I have been dedicating myself to develop personal projects using Javascript, Reactjs, Vite and Taillwind to keep improving my knowledge. '
     }
 ]
 
