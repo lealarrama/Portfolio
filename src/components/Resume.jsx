@@ -3,12 +3,12 @@ import Photo from '../assets/img/leandro.jpg'
 
 const Resume = () => {
   return (
-    <div id='resume' className='max-v-[1040px] w-auto md:pl-20 p-4 py-16 ' >
-      <h1 className='text-4xl font-bold text-center text-[#001b5e] pb-10'>About me </h1>
-      <div className="">
-        <div className="container md:flex">
-          <img  className =" p-8 m-10 mt-0 rounded-full ml-0" src ={Photo} alt=''/>
-            <p className='text-lg font-normal text-justify pt-8 m-2 my-2 text-stone-500'> 
+    <div id='resume' className='m-auto md:pl-20 py-16' >
+      <h1 className='text-4xl font-bold text-center text-[#001b5e] py-10'>About me </h1>
+  
+        <div className='sm:flex'>
+            <img className='rounded-full w-32 h-32 mx-auto  sm: w-48 h-48'  src ={Photo} alt=''/>
+            <p className='text-justify leading-loose pt-5 text-stone-600 text-lg mx-5 sm:px-10 sm:pt-0' > 
                 I am currently an exchange English student in Dublin with a background in Coding (Programming) looking for an opportunity and new challenges in the Web Development (IT, Tech) sector.  
                 From my personal projects and learning experiences I have been familiarized with following coding (programming) languages: Node.js, Javascript, Express, Html, Css, Javascript front, MySql, 
                 Api, Sequelize, React.js, Git, Scrum, Trello, Slack. 
@@ -16,8 +16,9 @@ const Resume = () => {
                 I am aware that you will receive many applications for the position, but I would very much appreciate the opportunity to demonstrate my capabilities to you in person. Thank you for taking the time to review my application, and for your consideration. 
                 I look forward to hearing from you.
             </p>
-        </div>
-      </div>
+         </div> 
+        
+      
     </div>
   )
 }
