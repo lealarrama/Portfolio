@@ -14,7 +14,7 @@ const data = [
         year:2022,
         title: 'Own Projects',
         duration: 'Present',
-        details:'I have been dedicating myself to develop personal projects using Javascript, Reactjs, Vite and Taillwind to keep improving my knowledge. '
+        details:'I have been dedicating myself to develop personal projects using Javascript, Reactjs, Vite.js and Tailwind css to keep improving my knowledge. '
     }
 ]
 

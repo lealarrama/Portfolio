@@ -10,12 +10,10 @@ const Resume = () => {
         <div className='sm:flex'>
             <img className='rounded-full w-32 h-32 mx-auto  sm: w-48 h-48'  src ={Photo} alt=''/>
             <p className='text-justify leading-loose pt-5 text-stone-600 text-lg mx-5 sm:px-10 sm:pt-0' > 
-                I am currently an exchange English student in Dublin with a background in Coding (Programming) looking for an opportunity and new challenges in the Web Development (IT, Tech) sector.  
-                From my personal projects and learning experiences I have been familiarized with following coding (programming) languages: Node.js, Javascript, Express, Html, Css, Javascript front, MySql, 
-                Api, Sequelize, React.js, Git, Scrum, Trello, Slack. 
-                As a highly motivated, progress-focused, and collaborative individual with good communication/interpersonal and adaptability/problem-solving skills. Though I am an entry-level applicant, I know I have much to learn and to assemble to the company. I'm looking for an opportunity that will let me build a solid professional foundation.
-                I am aware that you will receive many applications for the position, but I would very much appreciate the opportunity to demonstrate my capabilities to you in person. Thank you for taking the time to review my application, and for your consideration. 
-                I look forward to hearing from you.
+                I am a Jr.Front End Developer currently living and studying in Dublin looking for opportunities and new challenges.  
+                From my personal projects and learning experiences I have been familiarized with the following programming languages: Node.js, Javascript, Express, Html, Css, MySql, 
+                Api's, React.js, Vite.js and Tailwind Css, also I have knowledge in Git, Scrum, Trello, Slack. 
+                Though I am an entry-level applicant, as a highly motivated, progress-focused, and collaborative, I know I have much to learn and to assemble to the company. I'm looking for an opportunity that will let me build a solid professional foundation.
             </p>
          </div> 
         <div>

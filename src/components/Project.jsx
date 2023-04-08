@@ -10,7 +10,7 @@ const Project = () => {
     <div id='project' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
       <p className='text-center leading-loose pt-8 text-stone-600 font-normal text-lg text-justify'>
-      These projects have been developed with React Js, Vite and Taillwind. Both projects are working with Local Storage.
+      These projects have been developed with React Js, Vite.js and Tailwind css. Both projects are working with Local Storage.
       Veterinary Patient Control App allows you to input important information and follow up all patients registred in the clinic.</p>
       <p className='text-center leading-loose pb-8 text-stone-600 font-normal text-lg text-justify'>
         Expense Planner App permit to track your spendings by limiting an available budget and adding outputs per categories in order to control the expenses.</p>       
