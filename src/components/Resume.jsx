@@ -10,16 +10,19 @@ const Resume = () => {
         <div className='sm:flex'>
             <img className='rounded-full w-32 h-32 mx-auto  sm: w-48 h-48'  src ={Photo} alt=''/>
             <p className='text-justify leading-loose pt-5 text-stone-600 text-lg mx-5 sm:px-10 sm:pt-0' > 
-                I am a Jr.Front End Developer,Why do I like and want to develop apps? 
-                For the simple reason that most people, the first thing they do when 
-                they wake up is to take the cell phone and the last thing they do in the day 
-                before going to sleep is to use the cell phone, basically people use all day electronic devices.
-                For that reason I would like to participate or develop applications that can help people solve problems 
+                Why I like and want to develop apps? 
+                For the simple reason that most people use their mobile first thing after waking up and last thing before going to sleep. 
+                We are conected, devices are used everytime for everything. How it would be your day without it? Not so pleasent, right?  
+                For that reason I would like to participate or develop applications that can help people to solve problems 
                 through apps or simply make their day easier.
-                Currently living and studying in Dublin looking for opportunities and new challenges.  
+
+                
+              <p className='text-justify leading-loose pt-5 text-stone-600 text-lg mx-5 sm:px-10 sm:pt-0'>
+                I am a Jr.Front End Developer currently living and studying in Dublin looking for opportunities and new challenges.  
                 From my personal projects and learning experiences I have been familiarized with the following programming languages: Node.js, Javascript, Express, Html, Css, MySql, 
                 Api's, React.js, Vite.js and Tailwind Css, also I have knowledge in Git, Scrum, Trello, Slack. 
                 Though I am an entry-level applicant, as a highly motivated, progress-focused, and collaborative, I know I have much to learn and to assemble to the company. I'm looking for an opportunity that will let me build a solid professional foundation.
+              </p>            
             </p>
          </div> 
         <div>
