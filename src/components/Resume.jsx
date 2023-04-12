@@ -16,7 +16,7 @@ const Resume = () => {
                 For that reason I would like to participate or develop applications that can help people to solve problems 
                 through apps or simply make their day easier.
                 <p></p>
-                I am a Jr.Front End Developer currently living and studying in Dublin looking for opportunities and new challenges.  
+                I am a Jr. Front End Developer currently living and studying in Dublin looking for opportunities and new challenges.  
                 From my personal projects and learning experiences I have been familiarized with the following programming languages: Node.js, Javascript, Express, Html, Css, MySql, 
                 Api's, React.js, Vite.js and Tailwind Css, also I have knowledge in Git, Scrum, Trello, Slack. 
                 Though I am an entry-level applicant, as a highly motivated, progress-focused, and collaborative, I know I have much to learn and to assemble to the company. I'm looking for an opportunity that will let me build a solid professional foundation.
