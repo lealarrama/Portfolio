@@ -1,23 +1,28 @@
 import React from 'react'
+import { FiGithub, FiExternalLink } from 'react-icons/fi'
 
-const PojectItem = ({img, title}) => {
-  return (
-    <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
-      <img src={img} alt="/" className='rounded-xl group-hover:opacity-10'/>
-      
-      <div className='hidden group-hover:block absolute top-[%50] left-[%50] translate-x-[%50] translate-y-[%50]'>
-        <h3 className='text-2xl font-bold text-white tracking-wider text-center'>
-          {title}
-        </h3>
-        <p className='pb-4 pt-2 text-white text-center'>React Js</p>
-        <a href='/'>
-          <p className='text-center px-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>More Info</p>
-        </a>
-       </div>
-
+const ProjectItem = ({ img, title, type, technologies, description, features, contribution, learning, limitation, demo, repository }) => (
+  <article className="project-card h-full flex flex-col overflow-hidden rounded-xl bg-gray-50 shadow-lg">
+    <div className="aspect-[4/3] w-full bg-gray-100 flex items-center justify-center">
+      <img src={img} alt={`${title} application preview`} className="h-full w-full object-contain" loading="lazy" />
     </div>
-  )
-}
+    <div className="flex flex-1 flex-col p-6">
+      <p className="project-type text-sm font-medium">{type}</p>
+      <h3 className="mt-2 text-xl font-bold text-[#001b5e]">{title}</h3>
+      <p className="project-technologies mt-3 text-sm">{technologies}</p>
+      <p className="mt-4 leading-relaxed">{description}</p>
+      <dl className="project-details mt-5 space-y-4 text-sm leading-relaxed">
+        <div><dt>Key features</dt><dd>{features}</dd></div>
+        <div><dt>My involvement</dt><dd>{contribution}</dd></div>
+        <div><dt>Learning focus</dt><dd>{learning}</dd></div>
+      </dl>
+      <p className="project-note mt-5 text-sm leading-relaxed">{limitation}</p>
+      <div className="project-links mt-auto flex flex-wrap gap-3 pt-6">
+        {demo && <a className="project-demo" href={demo} target="_blank" rel="noopener noreferrer" aria-label={`View ${title} live demo (opens in a new tab)`}><FiExternalLink aria-hidden="true" />Live Demo</a>}
+        <a className="project-source" href={repository} target="_blank" rel="noopener noreferrer" aria-label={`View ${title} on GitHub (opens in a new tab)`}><FiGithub aria-hidden="true" />GitHub</a>
+      </div>
+    </div>
+  </article>
+)
 
-
-export default PojectItem
+export default ProjectItem
