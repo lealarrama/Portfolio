@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectItem from './PojectItem'
-import citasImg from '../assets/img/Appoiment.png'
-import budgetImg from '../assets/img/BudgetControl.png'
+import citasImg from '../assets/img/veterinary-english.jpg'
+import budgetImg from '../assets/img/expense-planner-english.jpg'
 
 const projects = [
   {
